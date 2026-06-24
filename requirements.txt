@@ -1,0 +1,9 @@
+# Modern CPU stack. numpy pinned <2 because the PyTorch wheels for Intel macOS are
+# built against numpy 1.x; numpy 2 breaks them ("Could not infer dtype of numpy.float32").
+numpy<2
+pandas
+matplotlib
+scipy
+scikit-learn
+rdkit
+torch
